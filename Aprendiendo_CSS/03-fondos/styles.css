@@ -1,0 +1,36 @@
+body{
+    background-color: #ccc;
+    /*
+    background-image: url(./assets/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: right bottom;
+    */
+    color: black;
+    text-align: justify;
+    text-indent: 15px;
+    /*
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    */
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgba(104, 226, 242, 0.647);
+    color: black;
+    font-family: "Open Sans MS";
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+h2{
+    color: white;
+    background-color: white;
+    background-image: url(./assets/patron2.jpeg);
+    
+    border: 5px solid pink;
+}

@@ -6,17 +6,26 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <h1>Máster en CSS</h1>
-        <ul>
+        <h1 id="title">Máster en CSS</h1>
+        <ul id="menu">
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Temario</a></li>
+            <li>
+                <a href="#">Temario</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+
+                    <li><a href="#">CSS</a></li>
+
+                    <li><a href="#">LESS</a></li>
+                </ul>
+            </li>
             <li><a href="#">Reseñas</a></li>
             <li><a href="#">Contacta</a></li>
         </ul>
 
         <div id="description">
             <h2>Descripción del curso</h2>
-            <p>
+            <p class="paragrapher parr1">
                 "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
                 blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
                 quas molestias excepturi sint occaecati cupiditate non provident, similique sunt
@@ -40,7 +49,7 @@
                   et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
                 ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
             </p>
-            <p>
+            <p class="paragrapher parr3">
                 "At vero eos et accusamus et iusto odio dignissimos ducimus qui 
                 blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
                 quas molestias excepturi sint occaecati cupiditate non provident, similique sunt
@@ -53,8 +62,22 @@
                 ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
             </p>
         </div>
+
+        <div id="usuario">
+            <form>
+                <label>Nombre</label>
+                <input type="text" name="nombre">
+                <label>Apellidos</label>
+                <input type="text" name="apellidos">
+                <input type="submit" value="Envíar">
+            </form>
+        </div>
+
+        <div id="salud">
+            <h1>Hola soy Rox Mendoza</h1>
+        </div>
         <footer>
-            Todos los derechos reservados &copy; Roxana Mendoza
+            Todos los derechos reservados <a>&copy; Roxana Mendoza</a>
         </footer>
     </body>
 </html>
