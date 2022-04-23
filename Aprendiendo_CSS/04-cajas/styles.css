@@ -3,6 +3,15 @@
     padding: 0px;
 }
 
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1035px;
+    border: 1px solid black;
+}
+
 .caja{
     display: block;
     width: 250px;
@@ -14,10 +23,15 @@
     float: left;
 }
 
-p{
+.caja p{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 230px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
 }
